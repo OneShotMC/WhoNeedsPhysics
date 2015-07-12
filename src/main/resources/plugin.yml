@@ -1,0 +1,4 @@
+name: WhoNeedsPhysics
+version: 1
+main: com.oneshotmc.whoneedsphysics.WhoNeedsPhysics
+description: Stop floating signs from getting destroyed
