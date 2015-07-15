@@ -4,13 +4,18 @@
 	<groupId>com.oneshotmc</groupId>
 	<artifactId>WhoNeedsPhysics</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<repositories>
+		<repository>
+			<id>PaperSpigot-Repo</id>
+			<url>http://ci.destroystokyo.com/plugin/repository/everything/</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.github.paperspigot</groupId>
 			<artifactId>paperspigot-api</artifactId>
 			<version>1.7.10-R0.1-SNAPSHOT</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/PaperSpigot-API.jar</systemPath>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>
